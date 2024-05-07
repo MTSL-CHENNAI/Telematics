@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_MTSL_CHENNAI_Telematics_1715074127964-push-trigger-input-set
+  identifier: Build_MTSL_CHENNAI_Telematics_1715074127964pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: testproject
+  pipeline:
+    identifier: Build_MTSL_CHENNAI_Telematics_1715074127964
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
